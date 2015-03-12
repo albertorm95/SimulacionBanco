@@ -127,6 +127,7 @@ def estadocaja(caja,estado):
             
 llenado()
 estadocaja('1','1')
+estadocaja('4','0')
 
 turtle.done()
 wn.mainloop() 
