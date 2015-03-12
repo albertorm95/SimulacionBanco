@@ -82,13 +82,7 @@ def cola_vacia(cola):
         return False
 
 def tiempos():
-    persona_a_caja(cola)
-    #thread.start_new_thread(persona_a_caja,(cola,))
-    time.sleep(2)
-    #thread.start_new_thread(tiempo_caja1, (Tcaja1,))
-    #thread.start_new_thread(tiempo_caja2, (Tcaja2,))
-    #thread.start_new_thread(tiempo_caja3, (Tcaja3,))
-    #thread.start_new_thread(tiempo_caja4, (Tcaja4,))
+    thread.start_new_thread(persona_a_caja,(cola,))
     
 Tpersona=int(raw_input("Ingrese tiempo (segundos) en el cual una persona llegara al banco: ")) 
 #Npersona=int(raw_input("Ingrese el numero de personas: "))
