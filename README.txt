@@ -16,6 +16,12 @@ Entorno:
 Python.
 Git.
 -----------------------------------------
+Agradecimiento a:
+Nilo Menezes (lskbr)
+https://github.com/lskbr
+
+Por libreria colorconsole
+-----------------------------------------
 Desarrollado por:
 
 Alberto Manuel Rojas Mendez
